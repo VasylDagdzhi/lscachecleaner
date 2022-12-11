@@ -6,7 +6,7 @@
 # in case there is not enough storage left in /home partition 
 # 
 # Author:  Vasiliy Dagdzhi
-# e-mail:  vasiliy.dagdzhi@namecheap.com
+# e-mail:  ljnero8@gmail.com
 # Date:    2022-12-11
 # Version: 1.0.0
 #
