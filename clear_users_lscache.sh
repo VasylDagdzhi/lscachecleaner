@@ -11,13 +11,6 @@
 # Version: 1.0.0
 #
 ################################################################################
-echo "Script name is: $0"
-echo "Arg1 is $1"
-echo "Arg1 is $2"
-echo "Arg1 is $3"
-echo "-----------"
-echo "All args: $*"
-echo "All args count: $#"
 
 # collect all user's lscache folders which have at least over 1Mb or 1Gb of space inside:
 large_folders_list=$(find /home -maxdepth 2 -name "lscache" -exec du -shx {} \;| grep -E "M|G" | awk '{print $2}')
